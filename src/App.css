@@ -103,4 +103,21 @@ body {
   .container {
     flex-direction: column;
   }
+
+  .left, .right {
+    width: 100%;
+  }
+
+  .left img {
+    height: 200px;
+    object-fit: cover;
+  }
+
+  .calendar {
+    padding: 10px;
+  }
+
+  .grid {
+    gap: 5px;
+  }
 }
